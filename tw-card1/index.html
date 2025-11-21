@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shirt card</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body class="h-[100vh] flex items-center justify-center bg-blue-100">
+
+    <div class="bg-white w-[50%] h-[50%] flex shadow-lg rounded-xl">
+        <div class="w-[35%] h-[100%] flex justify-center items-center">
+            <img class="p-2 " src="./rotating.gif" alt="">
+        </div>
+        <div class="w-[65%] h-[100%]">
+            <div class="flex justify-between px-10 pt-10">
+                <h3 class="text-2xl">Classic Cotton White</h3>
+                <h3>$110.00</h3>
+            </div>
+
+            <div class="rating pl-9">
+                <input value="5" name="rating" id="star5" type="radio">
+                <label for="star5"></label>
+                <input value="4" name="rating" id="star4" type="radio">
+                <label for="star4"></label>
+                <input value="3" name="rating" id="star3" type="radio">
+                <label for="star3"></label>
+                <input value="2" name="rating" id="star2" type="radio">
+                <label for="star2"></label>
+                <input value="1" name="rating" id="star1" type="radio">
+                <label for="star1"></label>
+            </div>
+
+            <p class="pl-10 text-green-600">In stock</p>
+            <div class="flex mt-3 pl-7">
+                <div class="flex w-[10%] justify-center flex-col items-center">
+                    <input class="scale-200 my-2" type="radio" name="size">
+                    <p>XS</p>
+                </div>
+                <div class="flex w-[10%] justify-center flex-col items-center">
+                    <input class="scale-200 my-2" type="radio" name="size">
+                    <p>S</p>
+                </div>
+                <div class="flex w-[10%] justify-center flex-col items-center">
+                    <input class="scale-200 my-2" type="radio" name="size">
+                    <p>M</p>
+                </div>
+                <div class="flex w-[10%] justify-center flex-col items-center">
+                    <input class="scale-200 my-2" type="radio" name="size">
+                    <p>LG</p>
+                </div>
+                <div class="flex w-[10%] justify-center flex-col items-center">
+                    <input class="scale-200 my-2" type="radio" name="size">
+                    <p>XL</p>
+                </div>
+            </div>
+            <div class="relative">
+                <p class="absolute right-0 bottom-3 pr-10 text-gray-500 ">Size guide</p>
+            </div>
+            <div class="px-20 pt-7"><button class="bg-blue-700 p-2 rounded-xl w-full text-white hover:bg-blue-800">Buy
+                    now</button></div>
+            <div class="text-center pb-10 pt-8 font-thin text-xs">
+                <p>Free shipping on all continantal US orders.</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
